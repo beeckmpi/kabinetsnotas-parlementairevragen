@@ -1,0 +1,85 @@
+body {
+  color : #000000;
+  background : #ffffff;  
+  padding: 0px 30px 10px 30px;
+  font:	Verdana, Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration : underline;
+  color : #000066;
+}
+
+a:hover {
+  text-decoration : none;
+}
+#index, #footer, #sidebar, #menul, #title, #tabnav, #printer, #editcat, #navbuttons, #farben, #font{
+  display : none;
+}
+ul#list_edit li.odd {
+	background-color: #ecfced;
+}
+
+fieldset {
+	width: 70%;
+}
+
+/* tables */
+table {
+	width: 100%;
+	border: 1px solid #000;
+	border-spacing: 0px; 
+	vertical-align: top;
+	font-size: 12px;
+}
+
+th 
+{
+	text-align: left;
+}
+
+td a
+{
+	font-size:  12px;
+	color: #000;
+	text-decoration: none;
+}
+
+#rapport_gegevens 
+{
+	margin: 0 auto;
+	background: #DDD;
+}
+
+.table
+{
+	border: 1px solid;
+	padding: 0px;
+}
+
+.dossier 
+{
+	border-bottom: 1px solid #000;
+	padding-left: 5px;
+}
+.dossier_info
+{
+	border-bottom: 1px solid #000;
+	padding-left: 5px;
+}
+.nummer 
+{
+	display: inline-block;
+	padding-left: 5px;
+	width: 45px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	vertical-align: top;
+}
+.verrekening-block
+{
+	display: inline-block;
+	padding-left: 5px;
+	border-left: 1px solid #000;
+	margin-left: 45px;	
+}
